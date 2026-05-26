@@ -119,18 +119,18 @@ Individual investors in Indonesia often build portfolios based on intuition rath
 Indonesia-Stock-Analysis/
 │
 ├── data/
-│   ├── stock_price.csv          # Raw daily closing prices
-│   ├── daily_returns.csv        # Computed daily returns
-│   ├── stock_summary.csv        # Annualized return, volatility, Sharpe per stock
-│   └── monte_carlo.csv          # 5,000 simulated portfolio metrics
+│   ├── stock_price.csv           # Raw daily closing prices
+│   ├── daily_returns.csv         # Computed daily returns
+│   ├── stock_summary.csv         # Annualized return, volatility, Sharpe per stock
+│   └── monte_carlo.csv           # 5,000 simulated portfolio metrics
 │
 ├── notebooks/
-│   └── ind_stock_analysis.ipynb  # Main analysis notebook (fully documented)
+│   └── ind_stock_analysis.ipynb   # Main analysis notebook (fully documented)
 │
 ├── output/
 │   ├── correlation_heatmap.png     # Correlation heatmap
-│   ├── normalized_price.png     # Normalized price chart
-│   └── efficient_frontier.png  # Monte Carlo efficient frontier plot
+│   ├── normalized_price.png        # Normalized price chart
+│   └── efficient_frontier.png      # Monte Carlo efficient frontier plot
 │
 └── README.md
 ```
